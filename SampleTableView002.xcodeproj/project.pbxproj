@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BDEDF851ADE12F100D315F8 /* customCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BDEDF841ADE12F100D315F8 /* customCell.xib */; };
+		1BDEDF8E1ADE13B300D315F8 /* Italy.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BDEDF871ADE13B300D315F8 /* Italy.png */; };
+		1BDEDF8F1ADE13B300D315F8 /* Japan.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BDEDF881ADE13B300D315F8 /* Japan.png */; };
+		1BDEDF901ADE13B300D315F8 /* star1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BDEDF891ADE13B300D315F8 /* star1.png */; };
+		1BDEDF911ADE13B300D315F8 /* star2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BDEDF8A1ADE13B300D315F8 /* star2.png */; };
+		1BDEDF921ADE13B300D315F8 /* star3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BDEDF8B1ADE13B300D315F8 /* star3.png */; };
+		1BDEDF931ADE13B300D315F8 /* star4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BDEDF8C1ADE13B300D315F8 /* star4.png */; };
+		1BDEDF941ADE13B300D315F8 /* star5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BDEDF8D1ADE13B300D315F8 /* star5.png */; };
+		1BDEDF971ADE142B00D315F8 /* customTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDEDF961ADE142B00D315F8 /* customTableViewCell.m */; };
 		1BFA3D5519F4DE03009D4768 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFA3D5419F4DE03009D4768 /* main.m */; };
 		1BFA3D5819F4DE03009D4768 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFA3D5719F4DE03009D4768 /* AppDelegate.m */; };
 		1BFA3D5B19F4DE03009D4768 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFA3D5A19F4DE03009D4768 /* ViewController.m */; };
@@ -14,6 +23,7 @@
 		1BFA3D6019F4DE03009D4768 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BFA3D5F19F4DE03009D4768 /* Images.xcassets */; };
 		1BFA3D6319F4DE03009D4768 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BFA3D6119F4DE03009D4768 /* LaunchScreen.xib */; };
 		1BFA3D6F19F4DE03009D4768 /* SampleTableView002Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFA3D6E19F4DE03009D4768 /* SampleTableView002Tests.m */; };
+		1BFA3D7A19F4EC30009D4768 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFA3D7919F4EC30009D4768 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +37,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BDEDF841ADE12F100D315F8 /* customCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = customCell.xib; sourceTree = "<group>"; };
+		1BDEDF871ADE13B300D315F8 /* Italy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Italy.png; sourceTree = "<group>"; };
+		1BDEDF881ADE13B300D315F8 /* Japan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Japan.png; sourceTree = "<group>"; };
+		1BDEDF891ADE13B300D315F8 /* star1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star1.png; sourceTree = "<group>"; };
+		1BDEDF8A1ADE13B300D315F8 /* star2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star2.png; sourceTree = "<group>"; };
+		1BDEDF8B1ADE13B300D315F8 /* star3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star3.png; sourceTree = "<group>"; };
+		1BDEDF8C1ADE13B300D315F8 /* star4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star4.png; sourceTree = "<group>"; };
+		1BDEDF8D1ADE13B300D315F8 /* star5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star5.png; sourceTree = "<group>"; };
+		1BDEDF951ADE142B00D315F8 /* customTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customTableViewCell.h; sourceTree = "<group>"; };
+		1BDEDF961ADE142B00D315F8 /* customTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customTableViewCell.m; sourceTree = "<group>"; };
 		1BFA3D4F19F4DE03009D4768 /* SampleTableView002.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleTableView002.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BFA3D5319F4DE03009D4768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BFA3D5419F4DE03009D4768 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +60,8 @@
 		1BFA3D6819F4DE03009D4768 /* SampleTableView002Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleTableView002Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BFA3D6D19F4DE03009D4768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BFA3D6E19F4DE03009D4768 /* SampleTableView002Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleTableView002Tests.m; sourceTree = "<group>"; };
+		1BFA3D7819F4EC30009D4768 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		1BFA3D7919F4EC30009D4768 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +82,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BDEDF861ADE13B300D315F8 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1BDEDF871ADE13B300D315F8 /* Italy.png */,
+				1BDEDF881ADE13B300D315F8 /* Japan.png */,
+				1BDEDF891ADE13B300D315F8 /* star1.png */,
+				1BDEDF8A1ADE13B300D315F8 /* star2.png */,
+				1BDEDF8B1ADE13B300D315F8 /* star3.png */,
+				1BDEDF8C1ADE13B300D315F8 /* star4.png */,
+				1BDEDF8D1ADE13B300D315F8 /* star5.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		1BFA3D4619F4DE03009D4768 = {
 			isa = PBXGroup;
 			children = (
@@ -85,10 +121,15 @@
 				1BFA3D5719F4DE03009D4768 /* AppDelegate.m */,
 				1BFA3D5919F4DE03009D4768 /* ViewController.h */,
 				1BFA3D5A19F4DE03009D4768 /* ViewController.m */,
+				1BFA3D7819F4EC30009D4768 /* DetailViewController.h */,
+				1BFA3D7919F4EC30009D4768 /* DetailViewController.m */,
 				1BFA3D5C19F4DE03009D4768 /* Main.storyboard */,
 				1BFA3D5F19F4DE03009D4768 /* Images.xcassets */,
 				1BFA3D6119F4DE03009D4768 /* LaunchScreen.xib */,
 				1BFA3D5219F4DE03009D4768 /* Supporting Files */,
+				1BDEDF841ADE12F100D315F8 /* customCell.xib */,
+				1BDEDF951ADE142B00D315F8 /* customTableViewCell.h */,
+				1BDEDF961ADE142B00D315F8 /* customTableViewCell.m */,
 			);
 			path = SampleTableView002;
 			sourceTree = "<group>";
@@ -96,6 +137,7 @@
 		1BFA3D5219F4DE03009D4768 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1BDEDF861ADE13B300D315F8 /* images */,
 				1BFA3D5319F4DE03009D4768 /* Info.plist */,
 				1BFA3D5419F4DE03009D4768 /* main.m */,
 			);
@@ -199,8 +241,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BDEDF941ADE13B300D315F8 /* star5.png in Resources */,
+				1BDEDF931ADE13B300D315F8 /* star4.png in Resources */,
+				1BDEDF911ADE13B300D315F8 /* star2.png in Resources */,
+				1BDEDF921ADE13B300D315F8 /* star3.png in Resources */,
 				1BFA3D5E19F4DE03009D4768 /* Main.storyboard in Resources */,
+				1BDEDF8E1ADE13B300D315F8 /* Italy.png in Resources */,
 				1BFA3D6319F4DE03009D4768 /* LaunchScreen.xib in Resources */,
+				1BDEDF851ADE12F100D315F8 /* customCell.xib in Resources */,
+				1BDEDF901ADE13B300D315F8 /* star1.png in Resources */,
+				1BDEDF8F1ADE13B300D315F8 /* Japan.png in Resources */,
 				1BFA3D6019F4DE03009D4768 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BDEDF971ADE142B00D315F8 /* customTableViewCell.m in Sources */,
 				1BFA3D5B19F4DE03009D4768 /* ViewController.m in Sources */,
 				1BFA3D5819F4DE03009D4768 /* AppDelegate.m in Sources */,
 				1BFA3D5519F4DE03009D4768 /* main.m in Sources */,
+				1BFA3D7A19F4EC30009D4768 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +464,7 @@
 				1BFA3D7419F4DE03009D4768 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BFA3D7519F4DE03009D4768 /* Build configuration list for PBXNativeTarget "SampleTableView002Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +473,7 @@
 				1BFA3D7719F4DE03009D4768 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
